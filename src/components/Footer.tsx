@@ -1,34 +1,32 @@
 import React from 'react';
-import { Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone } from 'lucide-react';
 
 const Footer: React.FC = () => (
-  <footer className="w-full bg-lime-300 text-slate-900 pt-8 pb-4 px-4">
-    <div className="max-w-6xl mx-auto">
-      <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
-        {/* Email */}
-        <div className="flex-1 mb-4 md:mb-0">
-          <span className="font-semibold">Email :</span>
-          <span className="ml-2 font-bold">marcosbportfolio@gmail.com</span>
+  <footer className="w-full bg-slate-900 text-white pt-8 pb-4 px-4 rounded-t-2xl mt-8">
+    <div className="max-w-md mx-auto flex flex-col items-center">
+      {/* Contacto */}
+      <div className="w-full flex flex-col items-center space-y-2">
+        <div className="flex items-center gap-2">
+          <Mail size={18} />
+          <span className="font-semibold">marcosbportfolio@gmail.com</span>
         </div>
-        {/* Teléfono */}
-        <div className="flex-1 mb-4 md:mb-0 text-left md:text-center">
-          <span className="font-semibold">Celular :</span>
-          <span className="ml-2 font-bold">+54 3743419408</span>
-        </div>
-        {/* Social */}
-        <div className="flex-1 flex items-center gap-2 justify-start md:justify-end">
-          <span className="font-semibold">Social :</span>
-          <a href="https://github.com/Marcos-Bntz" target="_blank" rel="noopener noreferrer" className="hover:text-black" aria-label="GitHub">
-            <Github size={24} />
-          </a>
-          <a href="https://www.linkedin.com/in/marcosdavidbenitez/" target="_blank" rel="noopener noreferrer" className="hover:text-black" aria-label="LinkedIn">
-            <Linkedin size={24} />
-          </a>
+        <div className="flex items-center gap-2">
+          <Phone size={18} />
+          <span className="font-semibold">+54 3743419408</span>
         </div>
       </div>
-      <hr className="my-4 border-slate-400/40" />
-      <div className="flex flex-col md:flex-row items-center justify-between text-slate-800 text-xs">
-        <div className="mb-2 md:mb-0">© Copyright 2025. All Rights Reserved by Marcos Benítez</div>
+      {/* Redes sociales */}
+      <div className="flex justify-center gap-8 mt-4">
+        <a href="https://github.com/Marcos-Bntz" target="_blank" rel="noopener noreferrer" aria-label="GitHub" tabIndex={0} className="hover:text-lime-400 focus:text-lime-400 transition">
+          <Github size={28} />
+        </a>
+        <a href="https://www.linkedin.com/in/marcosdavidbenitez/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" tabIndex={0} className="hover:text-lime-400 focus:text-lime-400 transition">
+          <Linkedin size={28} />
+        </a>
+      </div>
+      {/* Copyright */}
+      <div className="text-xs text-slate-400 text-center mt-4">
+        © Copyright 2025. All Rights Reserved by Marcos Benítez
       </div>
     </div>
   </footer>
