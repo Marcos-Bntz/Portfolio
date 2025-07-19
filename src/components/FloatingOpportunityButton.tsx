@@ -41,14 +41,14 @@ const FloatingOpportunityButton: React.FC = () => {
           aria-label="Abrir menú"
         >
           <div className="w-8 h-8 rounded-full overflow-hidden border-2 border-lime-400 mr-2">
-            <img
-              src="/profile.jpg"
-              alt="Benítez Marcos"
-              className="w-full h-full object-cover"
-              width={32}
-              height={32}
-              loading="eager"
-            />
+                                    <img
+                          src="./profile.jpg"
+                          alt="Benítez Marcos"
+                          className="w-full h-full object-cover"
+                          width={32}
+                          height={32}
+                          loading="eager"
+                        />
           </div>
           <span className="text-white text-base font-medium mr-2">Abierto a oportunidades</span>
           <span className="w-3 h-3 bg-lime-400 rounded-full inline-block mr-2" aria-label="Disponible" />
@@ -63,7 +63,7 @@ const FloatingOpportunityButton: React.FC = () => {
           <div className="relative bg-slate-900/95 rounded-2xl shadow-2xl w-80 max-w-full flex flex-col items-center p-6 animate-scale-in">
             <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-lime-400 absolute -top-7 left-1/2 -translate-x-1/2">
               <img
-                src="/profile.jpg"
+                src="./profile.jpg"
                 alt="Benítez Marcos"
                 className="w-full h-full object-cover"
                 width={56}

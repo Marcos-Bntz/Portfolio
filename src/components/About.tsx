@@ -81,7 +81,7 @@ const About: React.FC = () => {
             whileHover={{ scale: 1.05, rotate: 2 }}
           >
             <img
-              src="/pc.jpg"
+              src="./pc.jpg"
               alt="Cosas que se hacer"
               className="object-cover w-full h-full"
               width={384}

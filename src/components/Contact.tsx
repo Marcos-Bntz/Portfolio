@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
         <div className="md:w-1/2 w-full flex flex-col items-center relative mb-8 md:mb-0">
           <div className="relative">
             <img
-              src="/profile.jpg"
+              src="./profile.jpg"
               alt="Marcos Benítez"
               className="w-64 h-80 md:w-80 md:h-96 rounded-2xl object-cover shadow-2xl border-4 border-slate-700"
               width={320}

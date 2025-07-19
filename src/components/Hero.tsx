@@ -42,7 +42,7 @@ const Hero = () => {
           whileHover={{ scale: 1.05, rotate: 2 }}
         >
           <img
-            src="/profile.jpg"
+            src="./profile.jpg"
             alt="Benítez Marcos"
             className="w-64 h-80 md:w-80 md:h-96 rounded-2xl object-cover shadow-2xl border-4 border-slate-700"
             width={320}
