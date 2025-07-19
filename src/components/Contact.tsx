@@ -88,7 +88,7 @@ const Contact: React.FC = () => {
                 required
                 className="w-full px-4 py-2 rounded-full bg-slate-800 text-white border-none focus:ring-2 focus:ring-lime-400"
                 defaultValue=""
-              >
+                  >
                 <option value="" disabled>Select...</option>
                 <option value="Desarrollo Web">Desarrollo Web</option>
                 <option value="Diseño UI/UX">Diseño UI/UX</option>
