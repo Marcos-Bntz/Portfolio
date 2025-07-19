@@ -1,10 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Menu, X } from 'lucide-react';
 import FloatingOpportunityButton from './FloatingOpportunityButton';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = React.useState(false);
   const [showNav, setShowNav] = React.useState(true);
   const [showPill, setShowPill] = React.useState(false);
   const [lastScrollY, setLastScrollY] = React.useState(0);
@@ -33,7 +31,6 @@ const Navbar = () => {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
-    setIsOpen(false);
   };
 
   return (

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Github, Linkedin } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const [status, setStatus] = React.useState<'idle' | 'success' | 'error'>('idle');
