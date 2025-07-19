@@ -3,21 +3,21 @@ import React from 'react';
 const projects = [
   {
     title: 'Tienda Online',
-    image: './tienda-online.png',
+    image: '/Portfolio/tienda-online.png',
     description: 'E-commerce moderno con carrito de compras, gestión de productos y panel de administración. Ideal para negocios que quieren vender online de forma profesional.',
     tech: ['React', 'Node.js', 'MongoDB'],
     github: 'https://github.com/Marcos-Bntz/Tienda-Online'
   },
   {
     title: 'Florería Página Web',
-    image: './floreria.png',
+    image: '/Portfolio/floreria.png',
     description: 'Sitio web profesional para una florería, con catálogo de productos, formulario de contacto y diseño atractivo para captar clientes.',
     tech: ['Next.js', 'TailwindCSS'],
     github: 'https://github.com/Marcos-Bntz/floreria-paginaWeb'
   },
   {
     title: 'Aula Virtual',
-    image: './aula-virtual.png',
+    image: '/Portfolio/aula-virtual.png',
     description: 'Plataforma educativa para clases online, recursos, seguimiento de estudiantes y comunicación entre profesores y alumnos.',
     tech: ['React', 'Firebase'],
     github: 'https://github.com/Marcos-Bntz/Aula-Virtual/tree/main/project'
