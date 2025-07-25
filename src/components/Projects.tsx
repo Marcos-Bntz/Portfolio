@@ -27,7 +27,7 @@ const projects = [
     description: 'Sitio web profesional para una florería, con catálogo de productos, formulario de contacto y diseño atractivo para captar clientes.',
     tech: ['Next.js', 'TailwindCSS'],
     github: 'https://github.com/Marcos-Bntz/floreria-paginaWeb',
-    demo: '' // Agregar la url cuando esté disponible
+    demo: 'https://marcos-bntz.github.io/floreria-paginaWeb/' 
   },
   {
     title: 'Aula Virtual',
