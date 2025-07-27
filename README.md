@@ -1,110 +1,64 @@
-# Portfolio - Benítez Marcos
+# Portfolio - Desarrollador Web
 
-Portfolio personal de desarrollador web con diseño moderno y responsive.
+Mi portfolio personal desarrollado con React, TypeScript y Tailwind CSS.
 
-## 🚀 Tecnologías Utilizadas
+## 🚀 Despliegue en GitHub Pages
 
-- **React 18** - Framework de JavaScript
-- **TypeScript** - Tipado estático
-- **Vite** - Build tool y dev server
-- **TailwindCSS** - Framework de CSS utility-first
-- **Framer Motion** - Animaciones declarativas
-- **Lucide React** - Iconos modernos
+### Pasos para desplegar:
 
-## 📋 Características
+1. **Crear repositorio en GitHub**
+   - Ve a GitHub y crea un nuevo repositorio llamado `Portfolio`
+   - Asegúrate de que sea público
 
-- ✅ Diseño responsive (mobile-first)
-- ✅ Animaciones suaves con Framer Motion
-- ✅ Efecto de fondo "TV static"
-- ✅ Navegación con auto-hide
-- ✅ Formulario de contacto funcional (Formspree)
-- ✅ Optimización de imágenes (LCP, CLS, INP)
-- ✅ Accesibilidad (ARIA labels, focus management)
-- ✅ SEO optimizado
+2. **Configurar el repositorio local**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/TUUSUARIO/Portfolio.git
+   git push -u origin main
+   ```
 
-## 🛠️ Instalación
+3. **Instalar dependencias**
+   ```bash
+   npm install
+   ```
 
-```bash
-# Clonar el repositorio
-git clone https://github.com/tu-usuario/portfolio.git
-cd portfolio
+4. **Configurar GitHub Pages**
+   - Ve a Settings > Pages en tu repositorio
+   - En "Source", selecciona "Deploy from a branch"
+   - Selecciona la rama `gh-pages` y la carpeta `/ (root)`
+   - Guarda los cambios
 
-# Instalar dependencias
-npm install
+5. **Desplegar**
+   ```bash
+   npm run deploy
+   ```
 
-# Ejecutar en desarrollo
-npm run dev
+### Despliegue automático
 
-# Construir para producción
-npm run build
+El proyecto está configurado con GitHub Actions para desplegar automáticamente cada vez que hagas push a la rama main.
 
-# Preview de producción
-npm run preview
-```
+## 🛠️ Tecnologías utilizadas
 
-## 📁 Estructura del Proyecto
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Lucide React
 
-```
-src/
-├── components/
-│   ├── About.tsx          # Sección Sobre mí y habilidades
-│   ├── Contact.tsx        # Formulario de contacto
-│   ├── Faq.tsx           # Preguntas frecuentes
-│   ├── Footer.tsx        # Pie de página
-│   ├── Hero.tsx          # Sección principal
-│   ├── Navbar.tsx        # Navegación principal
-│   ├── Projects.tsx      # Proyectos destacados
-│   └── FloatingOpportunityButton.tsx # Botón flotante
-├── App.tsx               # Componente principal
-├── main.tsx             # Punto de entrada
-└── index.css            # Estilos globales
-```
+## 📦 Scripts disponibles
 
-## 🎨 Secciones del Portfolio
+- `npm run dev` - Inicia el servidor de desarrollo
+- `npm run build` - Construye la aplicación para producción
+- `npm run preview` - Previsualiza la build de producción
+- `npm run deploy` - Despliega a GitHub Pages
 
-1. **Hero** - Presentación principal con imagen y título
-2. **Sobre mí** - Información personal y experiencia
-3. **Cosas que sé hacer** - Habilidades técnicas
-4. **Proyectos** - Portfolio de trabajos realizados
-5. **Preguntas Frecuentes** - FAQ interactivo
-6. **Contacto** - Formulario funcional y información de contacto
-7. **Footer** - Enlaces sociales y contacto
+## 🌐 URL del sitio
 
-## 🔧 Scripts Disponibles
+Una vez desplegado, tu portfolio estará disponible en:
+`https://tuusuario.github.io/Portfolio`
 
-- `npm run dev` - Servidor de desarrollo
-- `npm run build` - Construcción para producción
-- `npm run preview` - Preview de la build
-- `npm run lint` - Linting del código
-
-## 📱 Responsive Design
-
-- **Mobile**: < 768px
-- **Tablet**: 768px - 1024px  
-- **Desktop**: > 1024px
-
-## 🚀 Deployment
-
-El proyecto está optimizado para deployment en:
-- GitHub Pages
-- Netlify
-- Vercel
-- Firebase Hosting
-
-## 👨‍💻 Desarrollador
-
-**Marcos Benítez** - Desarrollador Web Junior
-- Experiencia en HTML, CSS, JavaScript
-- Aprendiendo React, TypeScript, TailwindCSS
-- Enfocado en crear experiencias web modernas y accesibles
-
-## 📞 Contacto
-
-- **Email**: marcosbportfolio@gmail.com
-- **Teléfono**: +54 3743 419408
-- **GitHub**: [Marcos-Bntz](https://github.com/Marcos-Bntz)
-- **LinkedIn**: [Marcos Benítez](https://linkedin.com/in/marcos-benitez)
-
-## 📄 Licencia
-
-Este proyecto es de uso personal y educativo. 
+**Nota:** Reemplaza `tuusuario` con tu nombre de usuario real de GitHub. 
