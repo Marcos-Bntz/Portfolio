@@ -39,47 +39,47 @@ const Navbar = () => {
   return (
     <>
       {/* Desktop Navbar */}
-    <motion.nav
-      initial={{ y: -100 }}
+      <motion.nav
+        initial={{ y: -100 }}
         animate={{ y: showNav ? 0 : -100 }}
         transition={{ type: 'spring', stiffness: 300, damping: 30 }}
         className="z-[100] fixed top-0 left-0 right-0 flex justify-center px-2 mb-8"
-    >
+      >
         <div className="flex items-center bg-slate-800/90 backdrop-blur-xl border border-slate-700/50 rounded-full px-4 sm:px-8 py-3 sm:py-4 mt-4 shadow-lg w-full max-w-3xl">
         {/* Profile Image */}
         <div className="flex items-center space-x-4">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-emerald-400 flex-shrink-0">
+            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-lime-400 flex-shrink-0">
             <img 
                 src="/Portfolio/profile.jpg" 
-              alt="Benítez Marcos" 
-              className="w-full h-full object-cover"
+                alt="Benítez Marcos" 
+                className="w-full h-full object-cover"
                 width="48"
                 height="48"
                 loading="eager"
-            />
+              />
+            </div>
           </div>
-        </div>
-        
+          
           {/* Desktop Navigation Menu */}
           <div className="hidden md:flex items-center space-x-4 ml-6 text-base">
-          <button 
-            onClick={() => scrollToSection('inicio')}
+            <button 
+              onClick={() => scrollToSection('inicio')}
               className="flex items-center space-x-2 text-slate-300 hover:text-white transition-colors px-3 py-2 rounded-lg hover:bg-slate-700/50"
-          >
+            >
               <Home size={18} />
               <span>Inicio</span>
-          </button>
-          <button 
-            onClick={() => scrollToSection('sobre-mi')}
+            </button>
+            <button 
+              onClick={() => scrollToSection('sobre-mi')}
               className="flex items-center space-x-2 text-slate-300 hover:text-white transition-colors px-3 py-2 rounded-lg hover:bg-slate-700/50"
-          >
+            >
               <User size={18} />
               <span>Sobre mí</span>
-          </button>
-          <button 
-            onClick={() => scrollToSection('proyectos')}
+            </button>
+            <button 
+              onClick={() => scrollToSection('proyectos')}
               className="flex items-center space-x-2 text-slate-300 hover:text-white transition-colors px-3 py-2 rounded-lg hover:bg-slate-700/50"
-          >
+            >
               <FolderOpen size={18} />
               <span>Proyectos</span>
             </button>
@@ -89,15 +89,15 @@ const Navbar = () => {
             >
               <HelpCircle size={18} />
               <span>FAQ</span>
-          </button>
+            </button>
             <button
-            onClick={() => scrollToSection('contacto')}
+              onClick={() => scrollToSection('contacto')}
               className="flex items-center space-x-2 bg-white text-slate-900 px-5 py-2.5 rounded-full font-medium hover:bg-slate-100 transition-colors"
-          >
+            >
               <Mail size={18} />
               <span>Contacto</span>
             </button>
-        </div>
+          </div>
 
           {/* Mobile Navigation Icons */}
           <div className="md:hidden flex items-center space-x-3 ml-6">
@@ -138,13 +138,13 @@ const Navbar = () => {
             </button>
             
             {/* Mobile Menu Button */}
-        <button
+            <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="p-2.5 text-slate-300 hover:text-white transition-colors hover:bg-slate-700/50 rounded-lg ml-2"
-        >
+            >
               {isMobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
-        </button>
-      </div>
+            </button>
+          </div>
         </div>
       </motion.nav>
 

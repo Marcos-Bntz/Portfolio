@@ -68,7 +68,7 @@ const About: React.FC = () => {
                   </p>
                 </div>
               </div>
-              ))}
+            ))}
           </div>
         </div>
         {/* Columna derecha: Imagen */}

@@ -34,7 +34,7 @@ const Hero = () => {
           </h1>
         </motion.div>
         {/* Imagen centrada */}
-          <motion.div
+        <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
@@ -56,7 +56,7 @@ const Hero = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
           className="flex-1 flex flex-col items-center md:items-start mt-8 md:mt-0"
-          >
+        >
           <h2 className="text-3xl md:text-5xl font-extrabold uppercase text-white text-center md:text-left leading-tight tracking-tight">
             Desarrollador<br />Web
           </h2>

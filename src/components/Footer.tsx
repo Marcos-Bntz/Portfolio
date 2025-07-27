@@ -27,9 +27,9 @@ const Footer: React.FC = () => (
       {/* Copyright */}
       <div className="text-xs text-slate-400 text-center mt-4">
         © Copyright 2025. All Rights Reserved by Marcos Benítez
-        </div>
       </div>
-    </footer>
-  );
+    </div>
+  </footer>
+);
 
 export default Footer;
