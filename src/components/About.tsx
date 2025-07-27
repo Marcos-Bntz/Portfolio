@@ -48,7 +48,7 @@ const About: React.FC = () => {
             {skills.map((skill, idx) => (
               <div key={idx} className="border-b border-slate-600 py-2">
                 <button
-                  className={`flex items-center w-full text-left group focus:outline-none transition-colors ${openIndex === idx ? 'text-lime-400' : 'text-white'} font-extrabold text-lg md:text-2xl tracking-wide`}
+                  className={`flex items-center w-full text-left group focus:outline-none transition-colors ${openIndex === idx ? 'text-emerald-400' : 'text-white'} font-extrabold text-lg md:text-2xl tracking-wide`}
                   onClick={() => handleToggle(idx)}
                   aria-expanded={openIndex === idx}
                   aria-controls={`skill-panel-${idx}`}
@@ -63,7 +63,7 @@ const About: React.FC = () => {
                   className={`overflow-hidden transition-all duration-300 ease-in-out ${openIndex === idx ? 'max-h-32 opacity-100 mt-2' : 'max-h-0 opacity-0 mt-0'}`}
                   aria-hidden={openIndex !== idx}
                 >
-                  <p className="text-slate-300 text-base md:text-lg mt-2 border-l-4 border-lime-400 pl-4">
+                  <p className="text-slate-300 text-base md:text-lg mt-2 border-l-4 border-emerald-400 pl-4">
                     {skill.content}
                   </p>
                 </div>
@@ -77,7 +77,7 @@ const About: React.FC = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-lime-400/30 w-72 h-96 md:w-96 md:h-[420px] rotate-6"
+            className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-emerald-400/30 w-72 h-96 md:w-96 md:h-[420px] rotate-6"
             whileHover={{ scale: 1.05, rotate: 2 }}
           >
             <img
@@ -89,7 +89,7 @@ const About: React.FC = () => {
               loading="eager"
             />
             {/* Floating accent */}
-            <div className="absolute top-1/2 -right-4 w-5 h-5 bg-lime-400 rounded-full animate-pulse" />
+            <div className="absolute top-1/2 -right-4 w-5 h-5 bg-emerald-400 rounded-full animate-pulse" />
           </motion.div>
         </div>
       </div>

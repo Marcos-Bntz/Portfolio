@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className="flex items-center bg-slate-800/90 backdrop-blur-xl border border-slate-700/50 rounded-full px-4 sm:px-8 py-3 sm:py-4 mt-4 shadow-lg w-full max-w-3xl">
         {/* Profile Image */}
         <div className="flex items-center space-x-4">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-lime-400 flex-shrink-0">
+            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-emerald-400 flex-shrink-0">
             <img 
                 src="/Portfolio/profile.jpg" 
               alt="Benítez Marcos" 
@@ -131,7 +131,7 @@ const Navbar = () => {
             </button>
             <button
               onClick={() => scrollToSection('contacto')}
-              className="p-2.5 bg-lime-400 text-slate-900 rounded-full hover:bg-lime-300 transition-colors"
+              className="p-2.5 bg-emerald-400 text-slate-900 rounded-full hover:bg-emerald-300 transition-colors"
               aria-label="Contacto"
             >
               <Mail size={20} />
@@ -187,7 +187,7 @@ const Navbar = () => {
             </button>
             <button
               onClick={() => scrollToSection('contacto')}
-              className="flex items-center space-x-3 bg-lime-400 text-slate-900 px-4 py-2 rounded-full font-medium hover:bg-lime-300 transition-colors"
+              className="flex items-center space-x-3 bg-emerald-400 text-slate-900 px-4 py-2 rounded-full font-medium hover:bg-emerald-300 transition-colors"
             >
               <Mail size={18} />
               <span>Contacto</span>

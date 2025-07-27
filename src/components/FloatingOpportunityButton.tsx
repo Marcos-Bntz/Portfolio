@@ -40,7 +40,7 @@ const FloatingOpportunityButton: React.FC = () => {
           onClick={() => setOpen(true)}
           aria-label="Abrir menú"
         >
-          <div className="w-8 h-8 rounded-full overflow-hidden border-2 border-lime-400 mr-2">
+          <div className="w-8 h-8 rounded-full overflow-hidden border-2 border-emerald-400 mr-2">
                                     <img
                           src="/Portfolio/profile.jpg"
                           alt="Benítez Marcos"
@@ -51,8 +51,8 @@ const FloatingOpportunityButton: React.FC = () => {
                         />
           </div>
           <span className="text-white text-base font-medium mr-2">Abierto a oportunidades</span>
-          <span className="w-3 h-3 bg-lime-400 rounded-full inline-block mr-2" aria-label="Disponible" />
-          <span className="bg-lime-400 rounded-full p-2 flex items-center justify-center">
+                      <span className="w-3 h-3 bg-emerald-400 rounded-full inline-block mr-2" aria-label="Disponible" />
+                      <span className="bg-emerald-400 rounded-full p-2 flex items-center justify-center">
             <Menu size={24} className="text-slate-900" />
           </span>
         </button>
@@ -61,7 +61,7 @@ const FloatingOpportunityButton: React.FC = () => {
       {open && (
         <div className="fixed left-1/2 top-[72px] -translate-x-1/2 z-[102] flex flex-col items-center w-full max-w-[90vw]">
           <div className="relative bg-slate-900/95 rounded-2xl shadow-2xl w-80 max-w-full flex flex-col items-center p-6 animate-scale-in">
-            <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-lime-400 absolute -top-7 left-1/2 -translate-x-1/2">
+            <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-emerald-400 absolute -top-7 left-1/2 -translate-x-1/2">
               <img
                 src="/Portfolio/profile.jpg"
                 alt="Benítez Marcos"
@@ -72,7 +72,7 @@ const FloatingOpportunityButton: React.FC = () => {
               />
             </div>
             <button
-              className="absolute top-4 right-4 bg-lime-400 rounded-full p-2 focus:outline-none"
+              className="absolute top-4 right-4 bg-emerald-400 rounded-full p-2 focus:outline-none"
               onClick={() => setOpen(false)}
               aria-label="Cerrar menú"
             >
@@ -90,7 +90,7 @@ const FloatingOpportunityButton: React.FC = () => {
               ))}
               <button
                 onClick={() => handleNav('contacto')}
-                className="bg-lime-400 text-slate-900 px-8 py-3 rounded-full text-lg font-semibold mt-2 focus:outline-none hover:bg-lime-300 transition-colors"
+                className="bg-emerald-400 text-slate-900 px-8 py-3 rounded-full text-lg font-semibold mt-2 focus:outline-none hover:bg-emerald-300 transition-colors"
               >
                 Contacto
               </button>

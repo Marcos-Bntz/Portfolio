@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
               loading="eager"
             />
             <div className="absolute -left-16 bottom-8 md:-left-20 md:bottom-10">
-              <div className="bg-lime-300 text-slate-900 font-semibold rounded-full w-24 h-24 flex items-center justify-center text-xl shadow-lg border-4 border-lime-400 select-none">
+              <div className="bg-emerald-300 text-slate-900 font-semibold rounded-full w-24 h-24 flex items-center justify-center text-xl shadow-lg border-4 border-emerald-400 select-none">
                 ¡Hola!
               </div>
             </div>
@@ -58,35 +58,35 @@ const Contact: React.FC = () => {
           >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <label className="block text-lime-400 font-semibold mb-1" htmlFor="name">Nombre</label>
+                <label className="block text-emerald-400 font-semibold mb-1" htmlFor="name">Nombre</label>
                 <input
                   type="text"
                   name="name"
                   id="name"
                   required
                   placeholder="Tu nombre"
-                  className="w-full px-4 py-2 rounded-full bg-slate-800 text-white border-none focus:ring-2 focus:ring-lime-400"
+                  className="w-full px-4 py-2 rounded-full bg-slate-800 text-white border-none focus:ring-2 focus:ring-emerald-400"
                 />
               </div>
               <div>
-                <label className="block text-lime-400 font-semibold mb-1" htmlFor="email">Email</label>
+                <label className="block text-emerald-400 font-semibold mb-1" htmlFor="email">Email</label>
                 <input
                   type="email"
                   name="email"
                   id="email"
                   required
                   placeholder="Tu correo"
-                  className="w-full px-4 py-2 rounded-full bg-slate-800 text-white border-none focus:ring-2 focus:ring-lime-400"
+                  className="w-full px-4 py-2 rounded-full bg-slate-800 text-white border-none focus:ring-2 focus:ring-emerald-400"
                 />
               </div>
             </div>
             <div>
-              <label className="block text-lime-400 font-semibold mb-1" htmlFor="service">¿Necesita servicio?</label>
+              <label className="block text-emerald-400 font-semibold mb-1" htmlFor="service">¿Necesita servicio?</label>
               <select
                 name="service"
                 id="service"
                 required
-                className="w-full px-4 py-2 rounded-full bg-slate-800 text-white border-none focus:ring-2 focus:ring-lime-400"
+                className="w-full px-4 py-2 rounded-full bg-slate-800 text-white border-none focus:ring-2 focus:ring-emerald-400"
                 defaultValue=""
                   >
                 <option value="" disabled>Select...</option>
@@ -97,19 +97,19 @@ const Contact: React.FC = () => {
               </select>
             </div>
             <div>
-              <label className="block text-lime-400 font-semibold mb-1" htmlFor="message">¿En qué puedo ayudarte?</label>
+              <label className="block text-emerald-400 font-semibold mb-1" htmlFor="message">¿En qué puedo ayudarte?</label>
               <textarea
                 name="message"
                 id="message"
                 required
                 placeholder="Hola me gustaría preguntar sobre..."
-                className="w-full px-4 py-2 rounded-2xl bg-slate-800 text-white border-none focus:ring-2 focus:ring-lime-400"
+                className="w-full px-4 py-2 rounded-2xl bg-slate-800 text-white border-none focus:ring-2 focus:ring-emerald-400"
                 rows={5}
               />
             </div>
             <button
               type="submit"
-              className="w-full bg-transparent border-2 border-lime-400 text-lime-300 font-bold py-3 rounded-full text-xl hover:bg-lime-400 hover:text-slate-900 transition-colors"
+              className="w-full bg-transparent border-2 border-emerald-400 text-emerald-300 font-bold py-3 rounded-full text-xl hover:bg-emerald-400 hover:text-slate-900 transition-colors"
             >
               ENVIAR
             </button>

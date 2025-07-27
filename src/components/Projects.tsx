@@ -22,12 +22,12 @@ const projects = [
     demo: 'https://marcos-bntz.github.io/Tienda-Online/'
   },
   {
-    title: 'Florería Página Web',
+    title: 'Lotus Florería Profesional',
     image: '/Portfolio/floreria.png',
-    description: 'Sitio web profesional para una florería, con catálogo de productos, formulario de contacto y diseño atractivo para captar clientes.',
-    tech: ['Next.js', 'TailwindCSS'],
+    description: 'Sitio web moderno y elegante para florería profesional con catálogo de productos, diseño único y experiencia de usuario optimizada. Incluye carrito de compras, filtros avanzados y entrega profesional.',
+    tech: ['Next.js', 'TailwindCSS', 'React'],
     github: 'https://github.com/Marcos-Bntz/floreria-paginaWeb',
-    demo: '' // Agregar la url cuando esté disponible
+    demo: 'https://marcos-bntz.github.io/floreria-paginaWeb/' 
   },
   {
     title: 'Aula Virtual',
@@ -47,11 +47,11 @@ const Projects: React.FC = () => (
         <div key={idx} className="bg-slate-800 rounded-2xl shadow-lg overflow-hidden hover:scale-105 hover:-translate-y-2 transition-all duration-300 flex flex-col">
           <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
           <div className="p-6 flex flex-col flex-1">
-            <h3 className="text-2xl font-bold text-lime-400 mb-2">{project.title}</h3>
+            <h3 className="text-2xl font-bold text-emerald-400 mb-2">{project.title}</h3>
             <p className="text-slate-300 mb-4">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mb-4">
               {project.tech.map((t) => (
-                <span key={t} className="bg-slate-700 text-lime-300 px-3 py-1 rounded-full text-xs">{t}</span>
+                <span key={t} className="bg-slate-700 text-emerald-300 px-3 py-1 rounded-full text-xs">{t}</span>
                     ))}
                   </div>
             <div className="flex gap-3 mt-auto">
@@ -60,7 +60,7 @@ const Projects: React.FC = () => (
                   href={project.demo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 bg-lime-500 text-slate-900 font-semibold rounded-lg shadow hover:bg-lime-400 focus:outline-none focus:ring-2 focus:ring-lime-300 transition-colors text-sm md:text-base"
+                  className="inline-flex items-center px-4 py-2 bg-emerald-500 text-slate-900 font-semibold rounded-lg shadow hover:bg-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-300 transition-colors text-sm md:text-base"
                   aria-label={`Ver demo de ${project.title}`}
                   tabIndex={0}
                 >
@@ -71,7 +71,7 @@ const Projects: React.FC = () => (
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center w-10 h-10 bg-slate-700 text-lime-400 rounded-lg hover:bg-slate-600 focus:outline-none focus:ring-2 focus:ring-lime-300 transition-colors"
+                className="inline-flex items-center justify-center w-10 h-10 bg-slate-700 text-emerald-400 rounded-lg hover:bg-slate-600 focus:outline-none focus:ring-2 focus:ring-emerald-300 transition-colors"
                 aria-label={`Ver código en GitHub de ${project.title}`}
                 tabIndex={0}
               >

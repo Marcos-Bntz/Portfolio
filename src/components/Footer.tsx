@@ -17,10 +17,10 @@ const Footer: React.FC = () => (
       </div>
       {/* Redes sociales */}
       <div className="flex justify-center gap-8 mt-4">
-        <a href="https://github.com/Marcos-Bntz" target="_blank" rel="noopener noreferrer" aria-label="GitHub" tabIndex={0} className="hover:text-lime-400 focus:text-lime-400 transition">
+        <a href="https://github.com/Marcos-Bntz" target="_blank" rel="noopener noreferrer" aria-label="GitHub" tabIndex={0} className="hover:text-emerald-400 focus:text-emerald-400 transition">
           <Github size={28} />
         </a>
-        <a href="https://www.linkedin.com/in/marcosdavidbenitez/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" tabIndex={0} className="hover:text-lime-400 focus:text-lime-400 transition">
+        <a href="https://www.linkedin.com/in/marcosdavidbenitez/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" tabIndex={0} className="hover:text-emerald-400 focus:text-emerald-400 transition">
           <Linkedin size={28} />
         </a>
       </div>

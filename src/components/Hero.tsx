@@ -3,7 +3,7 @@ import { ArrowDown } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden pb-32 md:pb-0">
+    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden pb-32 md:pb-0 pt-20 md:pt-32">
       {/* Animated Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-emerald-900">
         <motion.div

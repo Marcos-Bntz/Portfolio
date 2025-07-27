@@ -54,7 +54,7 @@ const Faq: React.FC = () => {
           {faqs.map((faq, idx) => (
             <div key={idx} className="border-b border-slate-600 py-4">
               <button
-                className={`flex items-center w-full text-left group focus:outline-none transition-colors ${openIndex === idx ? 'text-lime-400' : 'text-white'}`}
+                className={`flex items-center w-full text-left group focus:outline-none transition-colors ${openIndex === idx ? 'text-emerald-400' : 'text-white'}`}
                 onClick={() => handleToggle(idx)}
                 aria-expanded={openIndex === idx}
                 aria-controls={`faq-panel-${idx}`}
@@ -71,7 +71,7 @@ const Faq: React.FC = () => {
                 className={`overflow-hidden transition-all duration-300 ease-in-out ${openIndex === idx ? 'max-h-40 opacity-100 mt-2' : 'max-h-0 opacity-0 mt-0'}`}
                 aria-hidden={openIndex !== idx}
               >
-                <p className="text-slate-300 text-base md:text-lg mt-2 border-l-4 border-lime-400 pl-4">
+                <p className="text-slate-300 text-base md:text-lg mt-2 border-l-4 border-emerald-400 pl-4">
                   {faq.answer}
                 </p>
               </div>
