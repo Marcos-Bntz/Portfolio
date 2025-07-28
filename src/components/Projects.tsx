@@ -28,7 +28,6 @@ const projects = [
     tech: ['Next.js', 'TailwindCSS', 'React'],
     github: 'https://github.com/Marcos-Bntz/floreria-paginaWeb',
     demo: 'https://marcos-bntz.github.io/floreria-paginaWeb/' 
-  }
   },
   {
     title: 'SITP',
@@ -37,7 +36,6 @@ const projects = [
     tech: ['React', 'Node.js', 'MongoDB'],
     github: 'https://github.com/Marcos-Bntz/SITP',
     demo: 'https://marcos-bntz.github.io/SITP/' 
-  } 
   }
 ];
 
