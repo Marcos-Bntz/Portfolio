@@ -35,7 +35,7 @@ const projects = [
     description: 'Plataforma educativa para clases online, recursos, seguimiento de estudiantes y comunicación entre profesores y alumnos.',
     tech: ['React', 'Firebase'],
     github: 'https://github.com/Marcos-Bntz/Aula-Virtual/tree/main/project',
-    demo: '' // Agregar la url cuando esté disponible
+    demo: 'https://marcos-bntz.github.io/SITP/' 
   }
 ];
 
