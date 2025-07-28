@@ -22,21 +22,22 @@ const projects = [
     demo: 'https://marcos-bntz.github.io/Tienda-Online/'
   },
   {
+    title: 'Lotus Florería Profesional',
+    image: '/Portfolio/floreria.png',
+    description: 'Sitio web moderno y elegante para florería profesional con catálogo de productos, diseño único y experiencia de usuario optimizada. Incluye carrito de compras, filtros avanzados y entrega profesional.',
+    tech: ['Next.js', 'TailwindCSS', 'React'],
+    github: 'https://github.com/Marcos-Bntz/floreria-paginaWeb',
+    demo: 'https://marcos-bntz.github.io/floreria-paginaWeb/' 
+  }
+  },
+  {
     title: 'SITP',
     image: '/Portfolio/sitp.png',
     description: 'Sistema Inteligente de Transparencia y Participación. Facilitamos la participación ciudadana y promovemos la transparencia en la gestión pública.',
     tech: ['React', 'Node.js', 'MongoDB'],
     github: 'https://github.com/Marcos-Bntz/SITP',
     demo: 'https://marcos-bntz.github.io/SITP/' 
-  }
-  },
-  {
-    title: 'Aula Virtual',
-    image: '/Portfolio/aula-virtual.png',
-    description: 'Plataforma educativa para clases online, recursos, seguimiento de estudiantes y comunicación entre profesores y alumnos.',
-    tech: ['React', 'Firebase'],
-    github: 'https://github.com/Marcos-Bntz/Aula-Virtual/tree/main/project',
-    demo: 'https://marcos-bntz.github.io/SITP/' 
+  } 
   }
 ];
 
